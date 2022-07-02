@@ -10,10 +10,8 @@
       "id": "basti.addon.dev@gmail.com"
     }
   },
-
-  "description": "Quick, easy and personal todo/note taking app for your browser of choice.",
-  "homepage_url": "https://github.com/basti42/sidetasks",
-
+  "description": "Quick, easy and personal todo/task tracking app for your browser.",
+  "homepage_url": "https://github.com/basti42/sidetasks-extension",
 
   "sidebar_action": {
     "default_icon": "icons/pen_paper.png",
