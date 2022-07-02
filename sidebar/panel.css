@@ -1,0 +1,94 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12pt;
+}
+
+body {
+  height: 100%;
+  background-color: #F4F7F8;
+}
+
+label {
+  font-size: 16pt; font-weight: bold;
+}
+
+button[type=submit] {
+  background-color: teal;
+  color: #F4F7F8; font-weight: bold;
+  box-sizing: none; box-shadow: none;
+  border: none; border-radius: 5px;
+  height: 100%; width: 10vw;
+  text-align: center;
+  cursor: pointer;
+}
+
+.small {
+  text-align: right;
+  font-size: 10pt;
+}
+
+.overline {
+  width: 100%;
+  border-top: 1px solid #515151;
+}
+
+.wrapper {
+  padding: 2em 2em 0 2em;
+}
+
+.add-line {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* textarea for input */
+#content {
+  width: 100%; height: 10vh;
+  padding: .5%;
+  box-shadow: none; resize: none;
+  border: 3px solid teal; border-radius: 5px;
+  transition: background-color .2s ease-out;
+}
+
+#content:focus {
+  border: 3px solid blue;
+  outline: none !important;
+}
+
+#tasks-wrapper {
+  display: flex; flex-direction: column;
+  justify-content: flex-start;
+}
+
+.task-element {
+  display: flex; flex-direction: column;
+  width: 100%; height: 8vh;
+  padding-left: 0.3rem;
+  border-left: 3px solid teal; border-bottom: 3px solid teal;
+  border-bottom-left-radius: 5px;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: border 0.3 ease;
+}
+
+.task-element:hover {
+  border-left: 3px solid blue; border-bottom: 3px solid blue;
+}
+
+.task-element-header {
+  display: flex; flex-direction: row-reverse;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: 1px solid #515151;
+  color: #515151; font-size: 8pt;
+  font-style: italic;
+}
+
+.task-element-body {
+  margin-top: 0.5rem;
+  display: flex; flex-direction: row;
+}
