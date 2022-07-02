@@ -1,11 +1,5 @@
-# annotate-page
+# Site-Task Browser extension
 
 ## What it does
-
-This example adds a sidebar that lets you take notes on the current web page. The notes are saved to local storage, and the notes for each page are shown again when you open that page again.
-
-The example also uses the `commands` manifest key to add a keyboard shortcut that opens the sidebar.
-
-## What it shows
-
-How to create a sidebar for an add-on. How to associate the sidebar with the currently active tab in that sidebar's window. How to store and restore sidebar content.
+A simple browser extension that makes use of the browsers sidebar component to keep a list of daily tasks. The tasks are only persisted in the browsers localStorage and will be overriden at the latest after a week. Or when a task is completed and it is clicked off. 
+The list only shows todays tasks and nothing else.
